@@ -2,7 +2,7 @@ import React from "react";
 
 const ContentArea = () => {
   return (
-    <main class="col-span-4">
+    <main class="col-span-4 block">
       <span className="text-2xl text-white bold">Main Area</span>
     </main>
   );

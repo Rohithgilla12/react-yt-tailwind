@@ -19,6 +19,9 @@ module.exports = {
       yt: {
         body: "#181818",
         nav: "#202020",
+        textBox: "#737373",
+        insideBox: "#121212",
+        searchButton: "#313131",
       },
 
       gray: {
