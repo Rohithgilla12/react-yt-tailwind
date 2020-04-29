@@ -2,10 +2,13 @@ import React from "react";
 import { YouTube } from "../icons/YouTube";
 import HamBurger from "../icons/HamBurger";
 import Search from "../icons/Search";
+import Create from "../icons/Create";
+import MenuIcon from "../icons/MenuIcon";
+import NotificationIcon from "../icons/NotificationIcon";
 
 const NavBar = () => {
   return (
-    <div className="bg-yt-nav h-16 block">
+    <div className="bg-yt-nav h-16 block shadow-none">
       <span className="text-2xl text-white bold">
         <div class="grid grid-cols-5 gap-2">
           <div class="col-span-1 bg-yt-nav h-screen">
@@ -31,7 +34,18 @@ const NavBar = () => {
               </button>
             </div>
           </div>
-          <div className="col-span-1 p-4 text-right">Account Stuff</div>
+          <div className="col-span-1 p-4 flex flex-end justify-end">
+            <div className="flex flex-row">
+              <Create />
+              <MenuIcon />
+              <NotificationIcon />
+              <img
+                src="https://lh3.googleusercontent.com/a-/AOh14GiZ8uDLrYJ6qZ51x_LUT2j5LFmhYL-LP6Yn-1WTdao=s88-c-k-c0x00ffffff-no-rj-mo"
+                alt="profile_image"
+                className="h-8 w-8 rounded-full m-1"
+              />
+            </div>
+          </div>
         </div>
       </span>
     </div>
