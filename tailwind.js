@@ -22,6 +22,8 @@ module.exports = {
         textBox: "#737373",
         insideBox: "#121212",
         searchButton: "#313131",
+        icon: "#909090",
+        hoverColor: "#383838",
       },
 
       gray: {
