@@ -5,7 +5,7 @@ const Search = () => {
     <svg
       viewBox="0 0 24 24"
       focusable="false"
-      className="style-scope yt-icon"
+      className="fill-current text-yt-icon"
       style={{ height: "24px" }}
     >
       <g>

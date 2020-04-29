@@ -14,10 +14,10 @@ const NavBar = () => {
           <div class="col-span-1 bg-yt-nav h-screen">
             <div className="text-white p-4">
               <div className="flex flex-row">
-                <span className="mr-8">
+                <span className="mr-8 px-6">
                   <HamBurger />
                 </span>
-                <span className="mr-2">
+                <span>
                   <YouTube />
                 </span>
               </div>
